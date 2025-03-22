@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/book.css">
+
+  <title></title>
+</head>
+<body>
+  <header>
+    <div class="left-header">
+      <a href="index.html" class="px24">
+        BOOK STORE
+      </a>
+    </div>
+
+    <div class="middle-header">
+      <input type="text" class="search-bar px16" placeholder="Search">
+
+      <div>
+        <i class="fa-solid fa-magnifying-glass search-icon px18"></i>
+      </div>
+    </div>
+
+    <div class="right-header">
+      <a class="orders-link header-link" href="orders.html">
+        <span class="returns-text">Returns</span>
+        <span class="orders-text bold">& Orders</span>
+      </a>
+
+      <div class="cart-container">
+        <a href="checkout.html">
+          <i class="fa-solid fa-cart-shopping px36"></i>
+        </a>
+        <span class="cart-quantity px16 bold"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="book-container">
+    </div>
+  </main>
+
+  <script type="module" src="scripts/book.js"></script>
+</body>
+</html>
